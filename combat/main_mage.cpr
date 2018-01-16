@@ -1,0 +1,67 @@
+//setting global cooldown (in milliseconds)
+gcd:1500
+
+//if we are low on health we eat something 
+//and we will wait for 15 seconds (15000 milliseconds) except if we get into combat
+cast:19
+selfhp<50
+!incombat
+channelingtime:15000
+breakoncombat
+
+//and if we are low on mana, why not drink something?
+cast:10
+mana<50
+!incombat
+channelingtime:15000
+breakoncombat
+
+//Frost
+cast:22
+mana>70
+cooldown:333500
+!incombat
+
+//Arane
+cast:21
+mana>60
+cooldown:323500
+!incombat
+
+//Fireball
+cast:12
+mana>10
+distance<35
+
+//Ice
+cast:14
+mana>5
+distance<35
+
+//Attack
+cast:11
+distance<5
+mana<15
+!wandcasting
+!autoattacking
+nogcd
+
+//Fireblast
+//cast:13
+//mana>5
+//distance<25
+//cooldown:8000
+
+//Conjure Food
+cast:29
+!incombat
+breakoncombat
+cooldown:233500
+mana>20
+
+//Conjure Water
+cast:20
+!incombat
+breakoncombat
+cooldown:193500
+mana>20

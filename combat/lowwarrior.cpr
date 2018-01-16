@@ -1,0 +1,41 @@
+//setting global cooldown (in milliseconds)
+gcd:1500
+
+//undeads might want to cannibalize when their health is low
+//it will also have to check whether you're not in combat
+//checking for corpses is not integrated
+//a channeling time has to be given so we don't break the action
+cast:16
+selfhp<60
+cooldown:120000
+!incombat
+channelingtime:10000
+aftercombat
+
+//we could also eat something
+cast:10
+selfhp<40
+!incombat
+channelingtime:18000
+
+//set combat stance
+//but only if combat stance is not an active buff
+//multiple buff conditions are possible!
+cast:20
+selfbuff!2457
+
+//charge
+//only if distance is greater than 8 and you're not in combat already
+cast:12
+distance>8
+cooldown:15000
+selfhp>60
+!incombat
+
+//heroic strike
+//only if more than 14 rage
+//and the target is not too weak already
+cast:13
+distance<5
+targethp>10
+rage>14

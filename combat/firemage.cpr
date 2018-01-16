@@ -1,0 +1,84 @@
+//setting global cooldown (in milliseconds)
+gcd:1500
+
+//this profile is not really documented but if you figured out the basics you should
+//be able to understand what it does
+
+//healing potion
+cast:36
+selfhp<15
+incombat
+cooldown:120000
+
+//mana shield
+cast:18
+targethp>10
+selfhp<20
+mana>40
+selfbuff!10193
+incombat
+
+//eat
+cast:38
+selfhp<60
+!incombat
+channelingtime:19000
+breakoncombat
+
+//evocation
+cast:51
+mana<40
+!incombat
+channelingtime:8000
+cooldown:480000
+breakoncombat
+aftercombat
+
+//combustion
+cast:1E
+cooldown:180000
+selfbuff!28682
+!incombat
+
+//drink
+cast:37
+mana<50
+!incombat
+channelingtime:19000
+breakoncombat
+
+//ice armor
+cast:55
+mana>70
+selfbuff!10220
+!incombat
+
+//intellect
+cast:54
+mana>70
+selfbuff!10157
+!incombat
+
+//blast wave
+cast:17
+combatcount>2
+cooldown:45000
+mana>10
+distance<14
+
+//pyro
+cast:13
+mana>10
+distance>25
+castonce
+
+//fireblast
+cast:12
+mana>5
+distance<25
+cooldown:8000
+
+//scorch
+cast:11
+mana>5
+distance<35
