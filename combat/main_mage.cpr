@@ -19,7 +19,7 @@ breakoncombat
 //Frost
 cast:22
 mana>70
-cooldown:333500
+cooldown:323500
 !incombat
 
 //Arane
@@ -27,6 +27,13 @@ cast:21
 mana>60
 cooldown:323500
 !incombat
+
+//Fireblast
+cast:13
+mana>5
+distance<35
+distance>5
+cooldown:8000
 
 //Fireball
 cast:12
@@ -45,12 +52,6 @@ mana<15
 !wandcasting
 !autoattacking
 nogcd
-
-//Fireblast
-//cast:13
-//mana>5
-//distance<25
-//cooldown:8000
 
 //Conjure Food
 cast:29
