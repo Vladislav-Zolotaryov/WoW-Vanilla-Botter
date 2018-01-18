@@ -28,19 +28,33 @@ mana>60
 cooldown:323500
 !incombat
 
+//Frostnova
+cast:15
+mana>5
+selfhp<30
+distance<6
+cooldown:28000
+
+//Blink
+cast:24
+mana>5
+selfhp<30
+distance<6
+cooldown:28000
+
 //Fireblast
 cast:13
 mana>5
 distance<35
 distance>5
-cooldown:8000
+cooldown:28000
 
 //Fireball
 cast:12
 mana>10
 distance<35
 
-//Ice
+//Icebolt
 cast:14
 mana>5
 distance<35
@@ -49,7 +63,6 @@ distance<35
 cast:11
 distance<5
 mana<15
-!wandcasting
 !autoattacking
 nogcd
 
