@@ -22,7 +22,7 @@ mana>70
 cooldown:263500
 !incombat
 
-//Frost
+//Frost Armor
 cast:22
 mana>70
 cooldown:323500
@@ -48,9 +48,22 @@ cooldown:128000
 
 //Frostnova
 cast:15
-mana>5
-selfhp<30
-distance<6
+mana>40
+distance>6
+distance<10
+cooldown:28000
+
+//Fire Blaze
+cast:16
+mana>40
+targethp<15
+distance<15
+cooldown:28000
+
+//Fire Blaze
+cast:17
+mana>40
+distance<9
 cooldown:28000
 
 //Blink
@@ -60,17 +73,17 @@ cooldown:28000
 //distance<6
 //cooldown:28000
 
-//Fireblast
+//Pyroblast
 cast:13
 mana>5
-distance<35
-distance>5
+distance<41
+distance>10
 cooldown:28000
 
 //Fireball
 cast:12
 mana>10
-distance<35
+distance<41
 
 //Icebolt
 cast:14
