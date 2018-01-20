@@ -16,17 +16,35 @@ mana<50
 channelingtime:15000
 breakoncombat
 
+//Ampli Magic
+cast:23
+mana>70
+cooldown:263500
+!incombat
+
 //Frost
 cast:22
 mana>70
 cooldown:323500
 !incombat
 
-//Arane
+//Arane Int
 cast:21
 mana>60
 cooldown:323500
 !incombat
+
+//Invocation
+cast:26
+mana<5
+selfhp>20
+cooldown:398000
+
+//Mana Shield
+cast:27
+mana>50
+selfhp<20
+cooldown:128000
 
 //Frostnova
 cast:15
@@ -36,11 +54,11 @@ distance<6
 cooldown:28000
 
 //Blink
-cast:24
-mana>5
-selfhp<30
-distance<6
-cooldown:28000
+//cast:24
+//mana>5
+//selfhp<30
+//distance<6
+//cooldown:28000
 
 //Fireblast
 cast:13
