@@ -4,14 +4,14 @@ gcd:1500
 //if we are low on health we eat something 
 //and we will wait for 15 seconds (15000 milliseconds) except if we get into combat
 cast:19
-selfhp<50
+selfhp<80
 !incombat
 channelingtime:15000
 breakoncombat
 
 //and if we are low on mana, why not drink something?
 cast:10
-mana<50
+mana<80
 !incombat
 channelingtime:15000
 breakoncombat
@@ -53,10 +53,10 @@ distance>6
 distance<10
 cooldown:28000
 
-//Fire Blaze
+//Fire Blast
 cast:16
 mana>40
-targethp<15
+targethp<20
 distance<15
 cooldown:28000
 
