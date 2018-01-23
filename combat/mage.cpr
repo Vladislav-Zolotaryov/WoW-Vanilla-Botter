@@ -35,13 +35,17 @@ cooldown:323500
 !incombat
 
 //Invocation
-cast:26
+cast:27
+cooldown:398000
+
+//Invocation
+cast:25
 mana<5
 selfhp>20
 cooldown:398000
 
 //Mana Shield
-cast:27
+cast:26
 mana>50
 selfhp<20
 cooldown:128000
