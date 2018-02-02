@@ -47,7 +47,7 @@ cooldown:398000
 //Mana Shield
 cast:26
 mana>50
-selfhp<20
+selfhp<30
 cooldown:128000
 
 //Frostnova
